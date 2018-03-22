@@ -4,6 +4,6 @@ class School
     @name = name
   end
 
-  roster = {}
+   attr_accessor :roster
 
 end
