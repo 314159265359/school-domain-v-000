@@ -8,8 +8,8 @@ class School
 
   attr_accessor :roster
 
-  def add_student
-
+  def add_student(name, grade)
+    @roster << [grade,name]
   end
 
 end
