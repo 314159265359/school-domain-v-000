@@ -3,7 +3,6 @@ class School
   def initialize(name)
     @name = name
     @roster = Hash.new{ |h, k| h[k] = [] }
-
   end
 
   attr_accessor :roster, :name, :grade
