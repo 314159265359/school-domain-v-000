@@ -20,7 +20,6 @@ class School
     @roster.each do |grade,students|
       students.sort!
     end
-    #{7=>["Blake Johnson", "Jack Bauer"], 9=>["Bart Simpson", "Homer Simpson"], 10=>["Avi Flombaum", "Jeff Baird"]}
   end
 
 end
