@@ -4,6 +4,11 @@ class School
     @name = name
   end
 
-   attr_accessor :roster
+  attr_accessor :roster
 
+  def roster(roster)
+    @roster = roster
+   #GENRES << genre
+  end
+   
 end
