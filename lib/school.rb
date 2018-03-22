@@ -6,7 +6,7 @@ class School
 
   attr_accessor :roster
 
-  ROSTER ={}
+  ROSTER = {}
   def roster(roster)
     @roster = roster
    #GENRES << genre
