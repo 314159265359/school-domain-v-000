@@ -17,7 +17,6 @@ class School
   end
 
   def sort(grade)
-    [@grade].sort
   end
 
 end
